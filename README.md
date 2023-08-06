@@ -1,5 +1,5 @@
 # gyro
- 
+
 This Library provides a simple CLI management through the serial terminal
 
 NOTES:

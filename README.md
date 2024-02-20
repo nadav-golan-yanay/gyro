@@ -20,3 +20,24 @@ SCL  | A5
 SDA  | A4
 
 You may want the I2C scanner from the wire.h examples to cheak that the conections are correct and the gyro is intact.
+
+## Code:
+
+**`begin(double bd, float XA, float YA, float ZA, float XG, float YG, float ZG)`**
+- bd: Serial Monitor  Baudrate.
+- XA: offset for **X** axis acceleration
+- YA: offset for **Y** axis acceleration
+- ZA: offset for **Z** axis acceleration
+- XG: offset for **X** axis gyro
+- YG: offset for **Y** axis gyro
+- ZG: offset for **Z** axis gyro
+
+This function **must** be called from `void setup()`.
+At first **set all of the offsets to 0**, then run the function `callibrate()` and follow its instruction.
+
+
+**`callibrate()`**
+This function callibrate the mpu6050.
+At the end of the function the following line will be printed in the Serial Monitor: "Copy the following line to the gyro begin line"
+After this line six numbers should be printed in the Serial Monitor, copy them to the begin function in the `void setup()`.
+This shuold callibrate the mpu6050.

@@ -49,17 +49,17 @@ This shuold callibrate the mpu6050.
 
 **`getrollang()`**
 
-This function read from the gyro the **roll angle** (most of the timg its the X axis).
-The function the an integer (int), so it cloude be used as variable
+This function read from the gyro the **roll angle** (most of the time its the X axis).
+The function returns an integer (int), so it cloude be used as variable
 
 
 **`getpitchang()`**
 
-This function read from the gyro the **pitch angle** (most of the timg its the Y axis).
-The function the an integer (int), so it cloude be used as variable
+This function read from the gyro the **pitch angle** (most of the time its the Y axis).
+The function returns an integer (int), so it cloude be used as variable
 
 
-**`getyewang()`**  //I know yaw is writen with an a and not with e, but I wrote it with e in the begining and I didn't want to change the whole code
+**`getyewang()`**  //I know 'yaw' is written with an 'a' and not with 'e,' but I initially wrote it with 'e' and didn't want to change the entire code.
 
-This function read from the gyro the **yew angle** (most of the timg its the Z axis).
-The function the an integer (int), so it cloude be used as variable
+This function read from the gyro the **yew angle** (most of the time its the Z axis).
+The function returns an integer (int), so it cloude be used as variable
